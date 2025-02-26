@@ -10,6 +10,18 @@ class ProductEnum(str, Enum):
     product_category3 = "ZapFlow com Llama3.0"
 
 class Sales(BaseModel):
+    """
+    Sales class
+
+    
+    Args:
+        email (EmailStr): Buyer's email
+        date_time (datetime): Date time of purchase
+        value (PositiveFloat): Purchase value
+        product_qty (PositiveInt): Product quantity
+        product_category (ProductEnum): Product category
+    """
+
     email: EmailStr
     date_time: datetime
     value: PositiveFloat
