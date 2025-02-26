@@ -1,0 +1,19 @@
+{
+    "sqltools.connections": [
+        {
+            "pgOptions": {
+                "ssl": {
+                    "rejectUnauthorized": true
+                }
+            },
+            "previewLimit": 50,
+            "server": "dpg-cuvgg1ogph6c73es5klg-a.singapore-postgres.render.com",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "database": "crm_genai",
+            "username": "user",
+            "password": "pSSNcVK3PMMGAsR5Gdb3eqDQv8sTG98R",
+            "name": "dpg-cuvgg1ogph6c73es5klg-a"
+        }
+    ]
+}
